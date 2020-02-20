@@ -810,7 +810,7 @@ These relational mixins helps you to manage styling of :nth-child’ified elemen
 @include first($num) {} // applies style to first n children
 @include first-child {} // applies style to first child only
 @include last($num) {}  // applies style to last n children
-@include last-child {}  // applies style to first child only
+@include last-child {}  // applies style to last child only
 @include every($num) {} // applies style to every n children
 @include first-last {}  // applies style to first and last child only
 @include after-first($num) {} // applies style to all after nth child
